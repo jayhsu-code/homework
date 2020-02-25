@@ -12,9 +12,12 @@ go
 create table letterynum
 (
     letteryID int primary key IDENTITY(1,1),
-    letteryNumber int,
-    letterycount int
+    letteryNumber1st int,
+    letteryNumber2rd int,
+    letteryNumber3rd int,
+    letteryNumber4th int,
+    letteryNumber5th int,
+    letteryNumber6th int,
 )
 insert into userlist(userName,userPwd) values('tommy','abc123')
-select * from userlist
-select * from letterynum
+go
